@@ -1,3 +1,5 @@
+<?php
+
 function wp_get_server_protocol() {
 	$protocol = $_SERVER['SERVER_PROTOCOL'];
 	if ( ! in_array( $protocol, array( 'HTTP/1.1', 'HTTP/2', 'HTTP/2.0' ) ) ) {
@@ -5,3 +7,5 @@ function wp_get_server_protocol() {
 	}
 	return $protocol;
 }
+
+?>
