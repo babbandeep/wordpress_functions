@@ -24,3 +24,38 @@ register_globals   This feature has been DEPRECATED as of PHP 5.3.0 and REMOVED 
 in this code wordpress doing the same, deprecating register global if it is on due to security reason.
 
 ini_get()  — Gets the value of a configuration option.
+
+
+## array_merge()
+
+<?php
+
+$a1=array("red","green");
+$a2=array("blue","yellow");
+
+print_r(array_merge($a1,$a2));
+
+//output 
+Array ( [0] => red [1] => green [2] => blue [3] => yellow )
+
+?>
+
+
+<?php
+	
+$var_name=array('A','B','C');
+
+if (is_array($var_name)){  
+     echo 'This is an array....';  
+} else {  
+    echo 'This is not an array....';  
+}
+
+//Output :
+This is an array....
+?>  
+
+echo true ? "true" : "false";
+
+//Output:
+true
