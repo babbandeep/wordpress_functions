@@ -29,6 +29,6 @@ if(in_array("Glenn", $people)){
 
 //output
 Match found
-	
+
 ?>
 
