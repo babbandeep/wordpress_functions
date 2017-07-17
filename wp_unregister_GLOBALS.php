@@ -15,3 +15,12 @@ function wp_unregister_GLOBALS() {
 }
 
 ?>
+
+
+//Code Explained
+
+register_globals   This feature has been DEPRECATED as of PHP 5.3.0 and REMOVED as of PHP 5.4.0.
+
+in this code wordpress doing the same, deprecating register global if it is on due to security reason.
+
+ini_get()  — Gets the value of a configuration option.
