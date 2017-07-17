@@ -9,3 +9,26 @@ function wp_get_server_protocol() {
 }
 
 ?>
+
+
+//code explained
+
+## $_SERVER['SERVER_PROTOCOL']	  Returns the name and revision of the information protocol (such as HTTP/1.1)
+
+
+## in_array()
+
+<?php
+$people = array("Peter", "Joe", "Glenn", "Cleveland");
+
+if(in_array("Glenn", $people)){
+       echo "Match found";
+ } else {
+       echo "Match not found";
+ }
+
+//output
+Match found
+	
+?>
+
