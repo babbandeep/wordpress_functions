@@ -66,3 +66,7 @@ echo true ? "true" : "false";
 
 //Output:
 true
+
+
+
+ini_get( 'register_globals' ), array_merge(), is_array()
