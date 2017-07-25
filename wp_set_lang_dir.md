@@ -73,4 +73,4 @@ This function returns TRUE if the directory exists.
 
 
 
-defined(), file_exists(), is_dir()
+**defined(), file_exists(), is_dir()**
