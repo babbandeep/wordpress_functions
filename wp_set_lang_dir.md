@@ -1,3 +1,4 @@
+```php
 <?php
 
 
@@ -48,3 +49,17 @@ function wp_set_lang_dir() {
 
 
 ?>
+```
+
+//Code Explained
+
+## defined()
+
+Returns TRUE if the constant exists, or FALSE otherwise
+
+
+## file_exists() 
+
+The file_exists() function checks whether or not a file or directory exists.
+
+This function returns TRUE if the file or directory exists, otherwise it returns FALSE.
