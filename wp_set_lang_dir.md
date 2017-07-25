@@ -63,3 +63,14 @@ Returns TRUE if the constant exists, or FALSE otherwise
 The file_exists() function checks whether or not a file or directory exists.
 
 This function returns TRUE if the file or directory exists, otherwise it returns FALSE.
+
+
+## is_dir()
+
+The is_dir() function checks whether the specified file is a directory.
+
+This function returns TRUE if the directory exists.
+
+
+
+defined(), file_exists(), is_dir()
