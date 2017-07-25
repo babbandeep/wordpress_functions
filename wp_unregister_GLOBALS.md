@@ -1,3 +1,5 @@
+```php
+
 <?php
 
 /**
@@ -23,18 +25,23 @@ function wp_unregister_GLOBALS() {
 
 ?>
 
+```
 
-//Code Explained
 
-register_globals   This feature has been DEPRECATED as of PHP 5.3.0 and REMOVED as of PHP 5.4.0.
+#Code Explained
+
+**register_globals**   This feature has been DEPRECATED as of PHP 5.3.0 and REMOVED as of PHP 5.4.0.
 
 in this code wordpress doing the same, deprecating register global if it is on due to security reason.
 
-ini_get()  — Gets the value of a configuration option.
+##ini_get()
+
+Gets the value of a configuration option.
 
 
 ## array_merge()
 
+```php
 <?php
 
 $a1=array("red","green");
@@ -46,8 +53,10 @@ print_r(array_merge($a1,$a2));
 Array ( [0] => red [1] => green [2] => blue [3] => yellow )
 
 ?>
+```
 
-
+## is_array()
+```php
 <?php
 	
 $var_name=array('A','B','C');
@@ -61,6 +70,7 @@ if (is_array($var_name)){
 //Output :
 This is an array....
 ?>  
+```
 
 echo true ? "true" : "false";
 
@@ -69,4 +79,4 @@ true
 
 
 
-ini_get( 'register_globals' ), array_merge(), is_array()
+**ini_get( 'register_globals' ), array_merge(), is_array()**
