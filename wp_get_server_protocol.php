@@ -38,9 +38,5 @@ if(in_array("Glenn", $people)){
 //output
 Match found
 
-just checking git version control command
-
-
-
 ?>
 
